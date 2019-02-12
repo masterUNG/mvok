@@ -315,7 +315,7 @@ public class TvCategoryActivity extends Activity {
                     if (playerInstalledOrNot("com.mxtech.videoplayer.pro")) {
                         //////added  by  tony
                         Intent intent = new Intent();
-                        ComponentName comp = new ComponentName("com.mxtech.videoplayer.pro", "com.mxtech.videoplayer.ActivityScreen");
+                        ComponentName comp = new ComponentName("com.mxtech.videoplayer.pro", "com.mxtech.videoplayer.pro.ActivityScreen");
 
                         intent.setComponent(comp);
                         intent.setAction(Intent.ACTION_VIEW);
