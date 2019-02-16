@@ -295,35 +295,54 @@ public class MovieDetailActivity extends Activity {
 
 		
 	}
-	
-	
-	public void checkAcees(String user_id){
 
-		Log.d("9AugV2", "user_level ==> " + user_level);
-		Log.d("9AugV2", "user_id ==> " + user_id);
-
-		user_level = "3";
-		user_id = "165";
-
+	public void checkAcees(String user_id) {
 		int level = Integer.valueOf(user_level);
-		if (level>=level_access) {
+		if (level >= level_access) {
 			new CheckAccessTask().execute(user_id);
-		}else {
-			if (level_access==1) {
+		} else {
+			if (level_access == 1) {
 
 				Toast.makeText(getApplicationContext(), "Level  Member up", Toast.LENGTH_LONG).show();
-			}else if (level_access==2) {
+			} else if (level_access == 2) {
 
 				Toast.makeText(getApplicationContext(), "Level Silver up", Toast.LENGTH_LONG).show();
-			}else if (level_access==3) {
+			} else if (level_access == 3) {
 
 				Toast.makeText(getApplicationContext(), "Level Gold up", Toast.LENGTH_LONG).show();
-			}else if (level_access==4) {
+			} else if (level_access == 4) {
 
 				Toast.makeText(getApplicationContext(), "Level Platinum up", Toast.LENGTH_LONG).show();
 			}
 		}
 	}
+//	public void checkAcees(String user_id){
+//
+//		Log.d("9AugV2", "user_level ==> " + user_level);
+//		Log.d("9AugV2", "user_id ==> " + user_id);
+//
+//		user_level = "3";
+//		user_id = "165";
+//
+//		int level = Integer.valueOf(user_level);
+//		if (level>=level_access) {
+//			new CheckAccessTask().execute(user_id);
+//		}else {
+//			if (level_access==1) {
+//
+//				Toast.makeText(getApplicationContext(), "Level  Member up", Toast.LENGTH_LONG).show();
+//			}else if (level_access==2) {
+//
+//				Toast.makeText(getApplicationContext(), "Level Silver up", Toast.LENGTH_LONG).show();
+//			}else if (level_access==3) {
+//
+//				Toast.makeText(getApplicationContext(), "Level Gold up", Toast.LENGTH_LONG).show();
+//			}else if (level_access==4) {
+//
+//				Toast.makeText(getApplicationContext(), "Level Platinum up", Toast.LENGTH_LONG).show();
+//			}
+//		}
+//	}
 	
 	public class CheckAccessTask extends AsyncTask<String, Void, Void>{
 		Boolean check;

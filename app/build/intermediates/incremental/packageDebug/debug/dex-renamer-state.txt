@@ -1,4 +1,19 @@
-#Wed Feb 13 01:46:42 ICT 2019
-base.0=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+#Sat Feb 16 08:02:24 ICT 2019
+path.1=classes.dex
 path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.5=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\50
+base.4=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\53
+base.3=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\51
+base.2=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\54
+base.1=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\52
+base.0=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex
