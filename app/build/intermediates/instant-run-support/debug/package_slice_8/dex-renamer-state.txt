@@ -1,4 +1,0 @@
-#Sat Feb 16 08:32:39 ICT 2019
-base.0=F\:\\yut\\nofix\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\46
-path.0=classes.dex
-renamed.0=classes.dex
