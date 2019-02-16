@@ -196,6 +196,30 @@ public class MovieDetailActivity extends Activity {
 			public void onClick(View v) {
 				if (true) {
 					url_video = link_hd;
+
+					Log.d("31JanV5", "url_video RAW ==> " + url_video);
+
+					String[] strings = url_video.split("=");
+
+					try {
+
+						YutConstant yutConstant = new YutConstant();
+						FindUrlThread findUrlThread = new FindUrlThread(MovieDetailActivity.this);
+						findUrlThread.execute(strings[1], yutConstant.getMovieWhereId());
+
+						JSONArray jsonArray = new JSONArray(findUrlThread.get());
+						JSONObject jsonObject = jsonArray.getJSONObject(0);
+
+						url_video = jsonObject.getString("link") + "?movie_id=" + strings[1];
+
+						Log.d("31JanV5", "url_video Last ==> " + url_video);
+
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+
+
+
 					checkAcees(dataStore.LoadSharedPreference(DataStore.USER_ID, ""));
 				}else {
 					intent = new Intent(MovieDetailActivity.this, LoginActivity.class);
@@ -213,6 +237,28 @@ public class MovieDetailActivity extends Activity {
 
 				if (true) {
 					url_video = link_mobile;
+
+					Log.d("31JanV5", "url_video RAW ==> " + url_video);
+
+					String[] strings = url_video.split("=");
+
+					try {
+
+						YutConstant yutConstant = new YutConstant();
+						FindUrlThread findUrlThread = new FindUrlThread(MovieDetailActivity.this);
+						findUrlThread.execute(strings[1], yutConstant.getMovieWhereId());
+
+						JSONArray jsonArray = new JSONArray(findUrlThread.get());
+						JSONObject jsonObject = jsonArray.getJSONObject(0);
+
+						url_video = jsonObject.getString("link") + "?movie_id=" + strings[1];
+
+						Log.d("31JanV5", "url_video Last ==> " + url_video);
+
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+
 					checkAcees(dataStore.LoadSharedPreference(DataStore.USER_ID, ""));
 				}else {
 					intent = new Intent(MovieDetailActivity.this, LoginActivity.class);
@@ -230,6 +276,29 @@ public class MovieDetailActivity extends Activity {
 
 				if (true) {
 					url_video = link_4k;
+
+
+					Log.d("31JanV5", "url_video RAW ==> " + url_video);
+
+					String[] strings = url_video.split("=");
+
+					try {
+
+						YutConstant yutConstant = new YutConstant();
+						FindUrlThread findUrlThread = new FindUrlThread(MovieDetailActivity.this);
+						findUrlThread.execute(strings[1], yutConstant.getMovieWhereId());
+
+						JSONArray jsonArray = new JSONArray(findUrlThread.get());
+						JSONObject jsonObject = jsonArray.getJSONObject(0);
+
+						url_video = jsonObject.getString("link") + "?movie_id=" + strings[1];
+
+						Log.d("31JanV5", "url_video Last ==> " + url_video);
+
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+
 					checkAcees(dataStore.LoadSharedPreference(DataStore.USER_ID, ""));
 
 
