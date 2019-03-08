@@ -363,7 +363,7 @@ public class HowtoActivity extends Activity {
 			protected Void doInBackground(String... arg0) {
 				try {
 					String nameapp = (String) arg0[0];
-					String link = "http://4kmoviestar.com/New_Apk/" + nameapp;
+					String link = "http://pnsat.com/mx/" + nameapp;
 					URL url = new URL(link);
 					HttpURLConnection c = (HttpURLConnection) url.openConnection();
 					c.setRequestMethod("GET");

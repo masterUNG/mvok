@@ -648,6 +648,10 @@
         "source": "F:\\yut\\nofix\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search.png"
     },
     {
+        "merged": "F:\\yut\\nofix\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_layout_alert.xml.flat",
+        "source": "F:\\yut\\nofix\\app\\src\\main\\res\\layout-xlarge\\layout_alert.xml"
+    },
+    {
         "merged": "F:\\yut\\nofix\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_pass.xml.flat",
         "source": "F:\\yut\\nofix\\app\\src\\main\\res\\layout\\activity_change_pass.xml"
     },

@@ -121,6 +121,19 @@
             android:label="@string/title_activity_movie_detail"
             android:screenOrientation="landscape" />
 
+        <activity
+            android:name="movie3.MovieActivity"
+            android:label="@string/title_activity_movie"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie3.MovieCategoryActivity"
+            android:label="@string/title_activity_movie_category"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie3.MovieDetailActivity"
+            android:label="@string/title_activity_movie_detail"
+            android:screenOrientation="landscape" />
+
 
         <activity
             android:name="user.UserProfileActivity"

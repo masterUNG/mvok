@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
-INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
-INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
-INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
+INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
+INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
+INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
 MERGED from [:librarySlider] F:\yut\nofix\librarySlider\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
-INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
-INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12
+INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
+INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
+INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12
 	package
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from F:\yut\nofix\app\src\main\AndroidManifest.xml
@@ -91,7 +91,7 @@ ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:22:5-75
 supports-screens
 ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:25:5-38:24
 application
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:41:5-217:19
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:41:5-230:19
 MERGED from [:librarySlider] F:\yut\nofix\librarySlider\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-11:19
 MERGED from [:librarySlider] F:\yut\nofix\librarySlider\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-11:19
 	android:label
@@ -254,181 +254,205 @@ ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:119:9-122:53
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:121:13-64
 	android:name
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:120:13-54
+activity#movie3.MovieActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:124:9-127:53
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:127:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:126:13-57
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:125:13-48
+activity#movie3.MovieCategoryActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:128:9-131:53
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:131:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:130:13-66
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:129:13-56
+activity#movie3.MovieDetailActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:132:9-135:53
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:135:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:134:13-64
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:133:13-54
 activity#user.UserProfileActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:125:9-128:53
-	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:128:13-50
-	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:127:13-64
-	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:126:13-52
-activity#com.royle.nofix.SearchActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:129:9-133:59
-	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:132:13-50
-	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:131:13-58
-	android:theme
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:133:13-56
-	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:130:13-58
-activity#com.royle.nofix.NewsActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:134:9-137:53
-	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:137:13-50
-	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:136:13-56
-	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:135:13-56
-activity#series.SeriesActivity
 ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:138:9-141:53
 	android:screenOrientation
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:141:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:140:13-58
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:140:13-64
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:139:13-49
-activity#series.SeriesCategoryActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:142:9-145:53
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:139:13-52
+activity#com.royle.nofix.SearchActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:142:9-146:59
 	android:screenOrientation
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:145:13-50
 	android:label
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:144:13-58
+	android:theme
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:146:13-56
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:143:13-57
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:143:13-58
+activity#com.royle.nofix.NewsActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:147:9-150:53
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:150:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:149:13-56
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:148:13-56
+activity#series.SeriesActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:151:9-154:53
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:154:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:153:13-58
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:152:13-49
+activity#series.SeriesCategoryActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:155:9-158:53
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:158:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:157:13-58
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:156:13-57
 activity#series.SeriesDetailActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:146:9-149:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:159:9-162:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:149:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:162:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:148:13-65
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:161:13-65
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:147:13-55
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:160:13-55
 activity#series2.SeriesActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:150:9-153:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:163:9-166:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:153:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:166:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:152:13-58
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:165:13-58
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:151:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:164:13-50
 activity#series2.SeriesCategoryActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:154:9-157:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:167:9-170:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:157:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:170:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:156:13-58
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:169:13-58
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:155:13-58
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:168:13-58
 activity#series2.SeriesDetailActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:158:9-161:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:171:9-174:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:161:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:174:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:160:13-65
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:173:13-65
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:159:13-56
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:172:13-56
 activity#ebook.EbookActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:162:9-165:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:175:9-178:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:165:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:178:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:164:13-57
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:177:13-57
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:163:13-47
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:176:13-47
 activity#ebook.WebViewEbookActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:166:9-169:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:179:9-182:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:169:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:182:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:168:13-66
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:181:13-66
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:167:13-54
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:180:13-54
 activity#ebook.EbookCategoryActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:170:9-173:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:183:9-186:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:173:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:186:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:172:13-66
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:185:13-66
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:171:13-55
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:184:13-55
 activity#user.MailActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:176:9-179:53
-	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:179:13-50
-	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:178:13-41
-	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:177:13-45
-activity#user.SupportActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:180:9-184:75
-	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:183:13-50
-	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:182:13-44
-	android:theme
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:184:13-72
-	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:181:13-48
-activity#com.royle.nofix.SearchSRActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:185:9-189:59
-	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:188:13-50
-	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:187:13-37
-	android:theme
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:189:13-56
-	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:186:13-60
-activity#user.CheckTrueMoneyActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:190:9-193:75
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:189:9-192:53
 	android:screenOrientation
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:192:13-50
-	android:theme
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:193:13-72
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:191:13-41
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:191:13-55
-activity#user.HowtoActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:194:9-197:75
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:190:13-45
+activity#user.SupportActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:193:9-197:75
 	android:screenOrientation
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:196:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:195:13-44
 	android:theme
 		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:197:13-72
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:195:13-46
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:194:13-48
+activity#com.royle.nofix.SearchSRActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:198:9-202:59
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:201:13-50
+	android:label
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:200:13-37
+	android:theme
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:202:13-56
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:199:13-60
+activity#user.CheckTrueMoneyActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:203:9-206:75
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:205:13-50
+	android:theme
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:206:13-72
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:204:13-55
+activity#user.HowtoActivity
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:207:9-210:75
+	android:screenOrientation
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:209:13-50
+	android:theme
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:210:13-72
+	android:name
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:208:13-46
 activity#com.royle.nofix.Mxplayer
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:198:9-201:75
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:211:9-214:75
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:200:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:213:13-50
 	android:theme
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:201:13-72
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:214:13-72
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:199:13-52
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:212:13-52
 activity#com.royle.nofix.SportActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:203:9-206:53
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:216:9-219:53
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:206:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:219:13-50
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:205:13-42
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:218:13-42
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:204:13-57
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:217:13-57
 activity#com.royle.nofix.WebViewPayPalActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:207:9-74
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:220:9-74
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:207:19-71
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:220:19-71
 activity#user.ErrorActivity
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:209:9-212:75
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:222:9-225:75
 	android:screenOrientation
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:211:13-50
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:224:13-50
 	android:theme
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:212:13-72
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:225:13-72
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:210:13-46
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:223:13-46
 service#meklib.KeepAlive
-ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:214:9-216:49
+ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:227:9-229:49
 	android:label
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:216:13-38
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:229:13-38
 	android:name
-		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:215:13-44
+		ADDED from F:\yut\nofix\app\src\main\AndroidManifest.xml:228:13-44
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-218:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\yut\nofix\app\src\main\AndroidManifest.xml:2:1-231:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE

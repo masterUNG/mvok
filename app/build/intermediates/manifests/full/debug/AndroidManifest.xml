@@ -40,7 +40,6 @@
         android:debuggable="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.royle.nofix.SplashScreen"
@@ -117,6 +116,18 @@
             android:screenOrientation="landscape" />
         <activity
             android:name="movie2.MovieDetailActivity"
+            android:label="@string/title_activity_movie_detail"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie3.MovieActivity"
+            android:label="@string/title_activity_movie"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie3.MovieCategoryActivity"
+            android:label="@string/title_activity_movie_category"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="movie3.MovieDetailActivity"
             android:label="@string/title_activity_movie_detail"
             android:screenOrientation="landscape" />
         <activity

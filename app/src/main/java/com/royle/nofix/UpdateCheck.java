@@ -182,7 +182,7 @@ public class UpdateCheck  extends Activity implements AlertDialog.OnClickListene
         protected Void doInBackground(String... arg0) {
             try {
                 String nameapp = (String) arg0[0];
-                String link = "http://7topup.com/" + nameapp;
+                String link = "http://www.pnst.com/mx/" + nameapp;
                 URL url = new URL(link);
                 HttpURLConnection c = (HttpURLConnection) url.openConnection();
                 c.setRequestMethod("GET");

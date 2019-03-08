@@ -36,7 +36,7 @@ public class Autoupdater{
      * The link to the public file version information. It may be
      * Dropbox, its own hosting or any other service.
      */
-    private static final String INFO_FILE = "http://7topup.me//update/nofix/Version.txt";
+    private static final String INFO_FILE = "http://2654k.com/update/you4k/Version.txt";
 
     /**
      * The version code established in AndroidManifest.xml version

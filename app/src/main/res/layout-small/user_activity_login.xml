@@ -54,7 +54,7 @@
                 android:maxLength="10"
                 android:textSize="15sp">
 
-                <requestFocus />
+
             </EditText>
 
         </LinearLayout>
@@ -114,6 +114,8 @@
                 android:layout_marginTop="5dp"
                 android:textSize="13sp" />
 
+
+
         </LinearLayout>
 
 
@@ -124,19 +126,23 @@
             android:weightSum="2"
             android:layout_gravity="center_horizontal">
 
+            <Button
+                android:id="@+id/btnLogin_login"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_green_corner"
+                android:text="เข้าสู่ระบบ"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15sp" />
+
+            <requestFocus />
+
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnLogin_login"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/selector_green_corner"
-            android:text="เข้าสู่ระบบ"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:textSize="15sp" />
+
 
     </LinearLayout>
 

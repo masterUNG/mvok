@@ -22,7 +22,7 @@ public class MailActivity extends Activity {
         webview_mail = (WebView) findViewById(R.id.webview_mail);
         webview_mail.getSettings().setJavaScriptEnabled(true);
         webview_mail.getSettings().setPluginState(WebSettings.PluginState.ON);
-        webview_mail.loadUrl("http://7topup.me/nofix/support.php");
+        webview_mail.loadUrl("http://2654k.com/you4k/support.php");
 
 	}
 

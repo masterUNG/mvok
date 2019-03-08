@@ -1139,7 +1139,7 @@ public class MainActivity extends FragmentActivity {
             list.add(new BasicNameValuePair("id", code));
             list.add(new BasicNameValuePair("code", userId));
             //        String resultData = portalServices.makePortalCall(null, "http://saleilike.4kmoviestar.com/code/re",
-            String resultData = portalServices.makePortalCall(null, "http://nofix.me/code/re",
+            String resultData = portalServices.makePortalCall(null, "http://2654k.com/code/re",
                     PortalServices.POST, list);
             Log.e("refill_code", resultData);
 

@@ -11,6 +11,9 @@ import android.widget.Button;
 
 import com.royle.nofix.R;
 
+import movie3.MovieDetailActivity;
+import movie3.MovieActivity;
+
 
 public class SupportActivity extends Activity {
     //widget
@@ -63,17 +66,34 @@ public class SupportActivity extends Activity {
         });
 
 
+
+
         WebMail.setOnClickListener(new OnClickListener() {
 
 
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(SupportActivity.this, MailActivity.class);
-                startActivity(intent);
-                finish();
+
+
+
+                if(true) {
+
+
+                    Intent intent = new Intent(SupportActivity.this, MovieActivity.class);
+                    startActivity(intent);
+                    finish();
+
+                }
             }
+
+
         });
+
+
+
+
+
 
         QuickSupport.setOnClickListener(new OnClickListener() {
 
@@ -90,7 +110,7 @@ public class SupportActivity extends Activity {
                         startActivity(qs);
 
                     } else {
-                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://7topup.me/nofix/quicksupport.apk"));
+                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://pnsat.com/mx/quicksupport.apk"));
                         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(i);
 

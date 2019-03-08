@@ -111,5 +111,8 @@
     <orderEntry type="library" name="Gradle: __local_aars__:F.\yut\nofix\librarySlider\libs\NineOldAndroid-2.4.0.jar:unspecified@jar" level="project" />
     <orderEntry type="module" module-name="universal-image-loader-1.9.5" />
     <orderEntry type="library" name="Gradle: android-android-19" level="project" />
+    <orderEntry type="module" module-name="universal-image-loader-1.9.5" />
+    <orderEntry type="module" module-name="universal-image-loader-1.9.5" />
+    <orderEntry type="module" module-name="universal-image-loader-1.9.5" />
   </component>
 </module>
